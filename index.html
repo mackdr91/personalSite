@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;500;600;700&family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Domonick Mack</title>
+  </head>
+  <body>
+    <spline-viewer
+      class="background-spline"
+      url="https://prod.spline.design/7r17WxFv9oQYCb8d/scene.splinecode"
+    ></spline-viewer>
+
+    <div class="container">
+      <div class="header">
+        <nav class="nav-links">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="content">
+       
+      </div>
+      <div id="projects" class="projects-section">
+        <div class="projects-content">
+          <h2>Projects</h2>
+          <div class="projects-grid">
+            <!-- Projects will be dynamically inserted here -->
+          </div>
+        </div>
+      </div>
+      <div id="about" class="about-section">
+        <div class="about-content">
+          <h2>About Me</h2>
+          <div class="about-grid">
+            <div class="experience-section">
+              <h3>Professional Background</h3>
+              <ul>
+                <li>6 Years Military Veteran - Systems Administrator</li>
+                <li>Cybersecurity Degree from ECPI</li>
+                <li>Systems Administrator in Logistics</li>
+                <li>Systems Administrator at Wholesale Grocery Company</li>
+              </ul>
+            </div>
+            <div class="interests-section">
+              <h3>Interests & Hobbies</h3>
+              <ul>
+                <li>Building Web Applications & Websites</li>
+                <li>Drawing</li>
+                <li>Cooking</li>
+                <li>Traveling</li>
+                <li>Basketball</li>
+                <li>Weightlifting</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="contact" class="contact-section">
+        <div class="contact-content">
+          <h2>Let's Connect</h2>
+          <p class="contact-intro">
+            I'm always interested in discussing new opportunities, sharing
+            ideas, or just having a great conversation about technology and
+            development.
+          </p>
+          <div class="email-container">
+            <a href="mailto:domonick.r.mack@gmail.com" class="email-link">
+              domonick.r.mack@gmail.com
+            </a>
+          </div>
+          <p class="contact-message">
+            Feel free to reach out - I'd love to hear from you!
+          </p>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.79/build/spline-viewer.js"></script>
+
+    <script src="projects.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+
